@@ -139,34 +139,39 @@ section.bottom_box_one p{
   bottom: 20px;
   right: 0px;
   left: 18px; 
+
 }
 
+/**** ANIMATION ***/
 
+.animate  {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+ }
+ 
+ .animate--slow{         
+  animation-duration: 0.8s; 
+  }
+  .animate--infinite{
+  animation-iteration-count: infinite;
+  }
+  
 div.div-three{
-  /* -webkit-animation: move 4s infinite;
-  -webkit-box-sizing: border-box;
-  transition: transform 1s linear; */
   animation-name: rotate;
   animation-timing-function: linear;
+  animation-direction: alternate;
+  transform: scaleX(-1);
 
 }
 
 @keyframes rotate {
   from{
-    transform: rotate(0);
+    transform: rotate(0deg);
   }
   to{
     transform: rotate(180deg);
   }
 } 
-
-/* div.div-three{
-
-  transition: all 2s ease-in-out;
-}
-.div-three:hover{
-  transform: rotate(45deg);
-} */
 
 /* PAGE 2 */
 section.page-2{
