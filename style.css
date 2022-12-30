@@ -116,32 +116,29 @@ section.bottom_box_one p{
 }
 
 .div-one{
-  border-style: solid;
   position: relative; 
   width: 20px;
   height: 20px;
-  background: yellow;
- 
 }
 .div-two{
-  border-style: solid;
   position: absolute; 
   width: 10px;
   height: 10px;
   z-index: 3; 
-  top: 764px;
-  left: 380px;
-  background: pink;
+  top: 762px;
+  left: 385px;
 }
 
 .div-three{
-  border-style: solid;
   position: relative;
   width: 15px;
   height: 15px;
   z-index: 2; 
   bottom: 20px;
   right: 0px;
-  background: white;
+  left: 18px; 
+}
 
+div.div-two img{
+  opacity: 0.2;
 }
