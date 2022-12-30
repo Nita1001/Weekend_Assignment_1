@@ -136,9 +136,9 @@ section.bottom_box_one p{
   width: 15px;
   height: 15px;
   z-index: 2; 
-  bottom: 20px;
+  bottom: 18px;
   right: 0px;
-  left: 18px; 
+  left: 6px; 
 
 }
 
@@ -156,13 +156,11 @@ section.bottom_box_one p{
   animation-iteration-count: infinite;
   }
   
-div.div-three{
+img#test:hover{
   animation-name: rotate;
   animation-timing-function: linear;
   animation-direction: alternate;
-  transform: scaleX(-1);
-
-}
+ }
 
 @keyframes rotate {
   from{
