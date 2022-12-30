@@ -113,7 +113,9 @@ section.bottom_page-1{
 
 section.bottom_box_one p{
   font-size: 12px;
+  color: white;
 }
+
 
 .div-one{
   position: relative; 
@@ -139,6 +141,55 @@ section.bottom_box_one p{
   left: 18px; 
 }
 
-div.div-two img{
-  opacity: 0.2;
+
+div.div-three{
+  /* -webkit-animation: move 4s infinite;
+  -webkit-box-sizing: border-box;
+  transition: transform 1s linear; */
+  animation-name: rotate;
+  animation-timing-function: linear;
+
+}
+
+@keyframes rotate {
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(180deg);
+  }
+} 
+
+/* div.div-three{
+
+  transition: all 2s ease-in-out;
+}
+.div-three:hover{
+  transform: rotate(45deg);
+} */
+
+/* PAGE 2 */
+section.page-2{
+  background-image: url(/images/model-3-hero-a-desktop1.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+}
+
+section h2{
+  padding-left: 20px;
+}
+
+/* PAGE 3 */
+.page-3{
+  background-image: url(/images/Model-3-Performance-Hero-Desktop-LHD3.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+}
+
+section h2{
+  padding-left: 20px;
 }
