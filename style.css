@@ -11,7 +11,7 @@
 header{
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 8px 40px;
+  padding: 16px 40px 0px;
   position: fixed;
 }
 
@@ -22,48 +22,45 @@ body{
   max-width: 140%;
 }
 
-/*  (Logo) */
+/* ---[ NAV ]---  */
 
-a.logo{
-  padding: 0 0 0 32px;
+header nav a{
+  text-decoration: none;
+  color: #fff;
 }
+
+a.navbar_btn{
+  padding: 0 16px;
+}
+
+a.navbar_btn:hover {
+  border-radius: 5px;
+  background-color: rgba(200, 200, 200, 0.4);
+}
+
+/*---------- [Left (Nav)] -------- */
+
+nav.left{
+  margin-left: 10px;
+  padding: 0 10px;
+}
+
+/*  (Logo) */
 
 img.logo{
   height: 12px;
   width: 120px;
   filter: brightness(1) invert(1);
-  padding: 0 16px;
-
-}
-
-/*  ---[ NAV ]---  */
-
-header a{
-  color: #fff;
-}
-
-header nav a{
-  text-decoration: none;
-}
-
-header nav.center{
-  text-align: center;
+  /* padding: 0 16px; */
 }
 
 /*---------- [Center (Nav)] -------- */
 
 nav.center{
-  padding-left: 201px; 
+  padding: 0px 30px 0 60px;
+  margin-left: 201px;  
 }
 
-span.center-btns{
-  padding: 0 30px;
-}
-
-a.nav-btn-center
-{
-  padding: 0 16px;
-}
 
 /*--------- [Right (Nav)] ---------*/
 
@@ -72,24 +69,6 @@ nav.right{
   margin: 0 18px;
 }
 
-.nav-btn-right{
-  padding: 16px;
-}
-
-/* Nav Btn */
-
-a.nav-btn:hover {
-  border-radius: 5px;
-  background-color: rgba(200, 200, 200, 0.4);
-}
-
-.nav-btn{
-  margin: 6px;
-}
-
-
-
-
 /* -------------------[ Sections ]--------------*/
 
 /* --- (PAGE 1) --- */
@@ -97,7 +76,7 @@ a.nav-btn:hover {
 .page-1{
   background-image: url(/images/Model-3-Main-Hero-Section-LHD.jpeg);
   background-size:cover;
-  height: 100vh;
+  height: 100%;
 }
 
 div.box_one{
@@ -123,4 +102,46 @@ h1{
   cursor: pointer;
 }
 
-/*    */
+/*  ----- [Bottom PAGE 1]  -----  */
+
+section.bottom_page-1{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 380px;
+  margin-top: 510px;
+}
+
+section.bottom_box_one p{
+  font-size: 12px;
+}
+
+.div-one{
+  border-style: solid;
+  position: relative; 
+  width: 20px;
+  height: 20px;
+  background: yellow;
+ 
+}
+.div-two{
+  border-style: solid;
+  position: absolute; 
+  width: 10px;
+  height: 10px;
+  z-index: 3; 
+  top: 764px;
+  left: 380px;
+  background: pink;
+}
+
+.div-three{
+  border-style: solid;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  z-index: 2; 
+  bottom: 20px;
+  right: 0px;
+  background: white;
+
+}
