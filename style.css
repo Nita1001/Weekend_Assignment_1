@@ -205,7 +205,7 @@ div.bottom_box_two{
   width: 400px;
   height: 100px;
   position: relative;
-  bottom: 30px;
+  bottom: 28px;
   left: 220px;
   /* border: solid rgb(58, 141, 193); */
   z-index: 1;
@@ -241,7 +241,7 @@ section.bottom_box_three .header-box3{
   width: 100px;
   height: 100px;
   position: relative;
-  bottom: 127px;
+  bottom: 130px;
   left: 420px;
   /* border: solid rgb(0, 0, 0); */
   z-index: 1;
