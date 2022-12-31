@@ -291,8 +291,8 @@ div.box4{
   height: 15px;
   width: 15px;
   border-style: solid;
-  border-color: white;
-  border-width: 0px 1px 1px 0px;
+  border-color: #696c74;
+  border-width: 0px 2px 2px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
   position: relative;
@@ -307,7 +307,6 @@ div.box4{
 
 .end-of-page1{
   position: relative;
-  border: solid yellowgreen;
   z-index: 0;
   bottom: 0px;
 }
@@ -358,6 +357,37 @@ section.page-2 div.box-2{
   bottom: 200px;
   padding-left: 20px;
 }
+
+div.btn-box{
+  position: relative;
+  left: 1290px;
+  /* border: solid pink; */
+  width: 200px;
+  bottom: 40px;
+}
+
+.buy-btn2{
+  background-color: transparent;
+  border: solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 200px;
+  height: 54px;
+}
+
+.buy-btn2:hover{
+  background: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
+  transition: smooth;
+  cursor: pointer;
+}
+
 
 
 /* PAGE 3 */
