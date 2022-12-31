@@ -261,6 +261,7 @@ div.box4{
   bottom: 226px;
   z-index: 4;
   left: 560px;
+  width: 50px;
 }
 
 .buy-btn{
@@ -306,22 +307,59 @@ div.box4{
 
 .end-of-page1{
   position: relative;
-  /* border: solid yellowgreen; */
+  border: solid yellowgreen;
   z-index: 0;
-  bottom: 755px;
+  bottom: 0px;
 }
 
 /* PAGE 2 */
 section.page-2{
-  background-image: url(/images/model-3-hero-a-desktop1.jfif);
+  background-image: url(/images/model-3-hero-a-desktop1.jfif) ;
   background-size: cover;
-  background-position: center;
+  /* background-position-x:  -6em;
+  background-position-y: -2em;  */
+  background-size: 1100px;
+  background-repeat: no-repeat; 
   height: 100vh;
-  
 }
 section h2{
   padding-left: 20px;
 }
+
+
+section.page-2 div.box-1{
+  /* border: solid blue;
+  background-color: white; */
+  position: relative;
+  width: 330px;
+  height: 300px;
+  left: 1160px;
+}
+section.page-2 div.box-1 h1{
+  position: absolute;
+  left: 20px;
+  width: 3400;
+  color: #171a20;
+  font-size: 28px;
+  
+}
+section.page-2 div.box-1 h2{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+section.page-2 div.box-2{
+  /* border: solid blue;
+  background-color: white; */
+  position: relative;
+  width: 320px;
+  height: 300px;
+  left: 1160px;
+  bottom: 200px;
+  padding-left: 20px;
+}
+
+
 /* PAGE 3 */
 .page-3{
   background-image: url(/images/Model-3-Performance-Hero-Desktop-LHD3.jfif);
