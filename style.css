@@ -123,7 +123,7 @@ div.bottom_box_one{
   width: 800px;
   height: 200px;
   z-index: 0;
-  border: solid red;
+  /* border: solid red; */
 }
 div.bottom_box_one p{
   padding-top: 0px;
@@ -161,7 +161,7 @@ div.bottom_box_one p{
   height: 10px;
   z-index: 1; 
   left: 15px;
-  bottom: 176px;
+  bottom: 180px;
 }
 div.div-two img{
   opacity: 0.2;
@@ -171,7 +171,7 @@ div.div-two img{
   width: 15px;
   height: 15px;
   z-index: 1; 
-  bottom: 168px;
+  bottom: 174px;
   left: 18px; 
 }
 /**** ANIMATION Arrow ***/
@@ -207,7 +207,7 @@ div.bottom_box_two{
   position: relative;
   bottom: 30px;
   left: 220px;
-  border: solid rgb(58, 141, 193);
+  /* border: solid rgb(58, 141, 193); */
   z-index: 1;
 
 }
@@ -216,7 +216,7 @@ div.header-box2{
   left: 10px;
   width: 100px;
   height: 100px;
-  border: solid black;
+  /* border: solid black; */
   z-index: 2;
 }
 div.header-box2 h1{
@@ -243,7 +243,7 @@ section.bottom_box_three .header-box3{
   position: relative;
   bottom: 127px;
   left: 420px;
-  border: solid rgb(0, 0, 0);
+  /* border: solid rgb(0, 0, 0); */
   z-index: 1;
 }
 
@@ -285,21 +285,31 @@ div.box4{
   cursor: pointer;
 }
 
-/* }
-section.bottom_box_three{
-  padding-bottom: 35px;
-  padding-right: 0px;
-  width: 20%;
+.arrow{
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
   position: relative;
-  bottom: 284px;
-  left: 260px;
-  border: solid black;
+  left: 760px;
+  bottom: 20px;
 }
-div.header_box3 h1{
-  color: white;
-  border: solid black;
-}*/
 
+.arrow:hover {
+  border-bottom-width: 3px;
+  border-right-width: 3px;
+}
+
+.end-of-page1{
+  position: relative;
+  /* border: solid yellowgreen; */
+  z-index: 0;
+  bottom: 755px;
+}
 
 /* PAGE 2 */
 section.page-2{
