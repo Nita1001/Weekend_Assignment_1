@@ -271,7 +271,7 @@ div.box4{
   background-color: transparent;
   border: solid white;
   color: white;
-  padding: 15px 32px;
+  padding: 8px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -279,7 +279,7 @@ div.box4{
   font-weight: bold;
   border-radius: 10px;
   width: 200px;
-  height: 54px;
+  height: 42px;
 }
 
 .buy-btn:hover{
@@ -389,21 +389,21 @@ div.btn-box{
   background-color: transparent;
   border: solid black;
   color: black;
-  padding: 15px 32px;
+  padding: 8px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
   border-radius: 10px;
-  width: 200px;
-  height: 54px;
+  width: 204px;
+  height: 40px;
 }
 
 .plus-btn{
   position: absolute;
   left: 40px;
-  top: 8px;
+  top: 2px;
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -437,14 +437,14 @@ div.btn-box{
   background-image: url(/images/Model-3-Performance-Hero-Desktop-LHD3.jfif);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   
 }
 
 section.page-3 div.p3-box-1{
   border: solid mediumspringgreen;
   position: relative;
-  top: 500px;
+  top: 450px;
   left: 400px;
   width: 800px;
   height: 100px;
@@ -455,7 +455,7 @@ section.page-3 div.p3-box-2{
   position: relative;
   width: 800px;
   height: 140px;
-  top: 700px;
+  top: 550px;
   left: 200px;
 }
 section.page-3 div.p3-box-2 h3 {
@@ -470,3 +470,25 @@ section.page-3 div.p3-box-2 h2 {
   font-size: 26px;
 }
 
+/* section.page-3 div.p3-box-1 div.btn-box2{
+  position: relative;
+  right: 300px;
+  border: solid blue;
+  width: 100px;
+  height: 100px;
+} */
+
+div.btn-box2 div.btnbox-btn1-1{
+  border: solid peru;
+  position: absolute;
+  top: 70px;
+}
+
+div.btn-box2 div.btnbox-btn2-2{
+  border: solid pink;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 70px;
+  
+}
