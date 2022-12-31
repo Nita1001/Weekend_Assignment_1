@@ -13,6 +13,7 @@ header{
   grid-template-columns: auto 1fr auto;
   padding: 16px 40px 0px;
   position: fixed;
+  z-index: 10;
 }
 
 /* ---[ BODY ] */                       
@@ -61,7 +62,6 @@ nav.center{
   margin-left: 201px;  
 }
 
-
 /*--------- [Right (Nav)] ---------*/
 
 nav.right{
@@ -69,26 +69,30 @@ nav.right{
   margin: 0 18px;
 }
 
-/* -------------------[ Sections ]--------------*/
+/* -------------------[[ Sections ]]--------------*/
 
 /* --- (PAGE 1) --- */
-
+/* ---- [Center] ---- */
 .page-1{
   background-image: url(/images/Model-3-Main-Hero-Section-LHD.jpeg);
   background-size:cover;
   height: 100%;
+  position: static;
 }
-
 div.box_one{
   text-align: center;
   padding-top: 120px;
+  position: relative;
+  height: 0;
+  z-index: 0;
+  top: 120px;
 }
-
 h1{
   font-size: 39px;
   color:#fff;
+  /* position: relative;
+  top: 120px; */
 }
-
 .h1-btn{
   text-decoration: underline;
   padding-top: 1px;
@@ -96,72 +100,97 @@ h1{
   font-weight: none;
   color: white;
   text-align: center;
+  /* position: relative;
+  top: 120px; */
 }
-
 .h1-btn:hover{
   cursor: pointer;
 }
-
-/*  ----- [Bottom PAGE 1]  -----  */
-
+/* ----- [Bottom] ----- */
 section.bottom_page-1{
   font-size: 30px;
   text-align: left;
   margin-left: 380px;
   margin-top: 510px;
 }
-
-section.bottom_box_one p{
+/* * * Bottom box 1 * * */
+div.bottom_box_one{
+  padding-bottom: 35px;
+  padding-right: 0px;
+  position: relative;
+  top: 90px;
+  left: 60px;
+  width: 600px;
+  height: 200px;
+  z-index: 0;
+  border: solid red;
+}
+div.bottom_box_one p{
+  padding-top: 0px;
+  padding-left: 20px;
   font-size: 12px;
   color: white;
+  /* border: solid rgb(177, 27, 147); */
+  width: 16%;
+  position: absolute;
+  top: 50px;
+  left: 8px;
+  z-index: 1;
 }
 
+/* .speedmeter{
+  position: relative;
+  border: solid aqua;
+  width: 40px;
+  height: 40px;
+  top: 40px;
+
+} */
 
 .div-one{
-  position: relative; 
+  position: absolute; 
   width: 20px;
   height: 20px;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
 }
 .div-two{
   position: absolute; 
   width: 10px;
   height: 10px;
-  z-index: 3; 
-  top: 762px;
-  left: 385px;
+  z-index: 1; 
+  left: 15px;
+  bottom: 176px;
 }
-
+div.div-two img{
+  opacity: 0.2;
+}
 .div-three{
-  position: relative;
+  position: absolute;
   width: 15px;
   height: 15px;
-  z-index: 2; 
-  bottom: 18px;
-  right: 0px;
-  left: 6px; 
-
+  z-index: 1; 
+  bottom: 168px;
+  left: 18px; 
 }
-
-/**** ANIMATION ***/
-
+/**** ANIMATION Arrow ***/
 .animate  {
   animation-duration: 1s;
   animation-fill-mode: both;
  }
- 
  .animate--slow{         
   animation-duration: 0.8s; 
   }
   .animate--infinite{
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   }
-  
 img#test:hover{
   animation-name: rotate;
   animation-timing-function: linear;
-  animation-direction: alternate;
+  transform-origin: center right;
+  transform-style: preserve-2D;
  }
-
 @keyframes rotate {
   from{
     transform: rotate(0deg);
@@ -170,6 +199,59 @@ img#test:hover{
     transform: rotate(180deg);
   }
 } 
+/* * *--------------------- Bottom box 2 -------* * */
+div.bottom_box_two{
+  /* padding-bottom: 35px; */
+  width: 400px;
+  height: 100px;
+  position: relative;
+  bottom: 100px;
+  left: 220px;
+  border: solid rgb(58, 141, 193);
+  z-index: 1;
+
+}
+div.header-box2{
+  position: absolute;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  border: solid black;
+  z-index: 2;
+}
+div.header-box2 h1{
+  width: 100px;
+  height: 30px;
+  font-size: 28px;
+  /* border: solid rgb(29, 136, 48); */
+}
+
+div.header-box2 p{
+  top: 160px;
+  font-size: 12px;
+  color: white;
+  /* border: solid rgb(177, 27, 147); */
+  padding-top: 9px;
+  width: 130px;
+  height: 20px;
+
+}
+
+/* }
+section.bottom_box_three{
+  padding-bottom: 35px;
+  padding-right: 0px;
+  width: 20%;
+  position: relative;
+  bottom: 284px;
+  left: 260px;
+  border: solid black;
+}
+div.header_box3 h1{
+  color: white;
+  border: solid black;
+}*/
+
 
 /* PAGE 2 */
 section.page-2{
@@ -179,11 +261,9 @@ section.page-2{
   height: 100vh;
   
 }
-
 section h2{
   padding-left: 20px;
 }
-
 /* PAGE 3 */
 .page-3{
   background-image: url(/images/Model-3-Performance-Hero-Desktop-LHD3.jfif);
@@ -192,7 +272,6 @@ section h2{
   height: 100vh;
   
 }
-
 section h2{
   padding-left: 20px;
 }
