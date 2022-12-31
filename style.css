@@ -360,13 +360,15 @@ section.page-2 div.box-2{
 
 div.btn-box{
   position: relative;
-  left: 1290px;
+  left: 1100px;
   /* border: solid pink; */
-  width: 200px;
+  width: 400px;
   bottom: 40px;
 }
 
 .buy-btn2{
+  position: absolute;
+  left: 190px;
   background-color: transparent;
   border: solid black;
   color: black;
@@ -381,12 +383,34 @@ div.btn-box{
   height: 54px;
 }
 
+.plus-btn{
+  position: absolute;
+  left: 40px;
+  top: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 .buy-btn2:hover{
   background: rgb(8, 8, 8);
   color: rgb(255, 255, 255);
   transition: smooth;
   cursor: pointer;
 }
+.plus-btn img{
+  border-radius: 50%;
+  border: solid black;
+}
+.plus-btn img:hover{
+  background-color: black;
+  transition: smooth;
+}
+
+/* .plus-btn h3{
+  text-decoration: none;
+  position: absolute;
+  left: 20px;
+} */
 
 
 
