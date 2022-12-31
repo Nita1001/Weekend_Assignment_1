@@ -289,7 +289,7 @@ div.box4{
   cursor: pointer;
 }
 
-div.comment-dots{
+div.comment-dots button.btn-comment{
   border: solid mediumaquamarine;
   position: absolute;
   z-index: 20;
@@ -487,4 +487,23 @@ section.page-3 div.p3-box-2 p{
 }
 section.page-3 div.p3-box-2 p a{
   color: black;
+}
+
+
+/* P3-BOX-1*/
+
+section.page-3 div.p3-box-1 div.div-one{
+  position: absolute;
+
+}
+
+section.page-3 div.p3-box-1 div.div-two{
+  position: absolute;
+  top: 16px;
+}
+
+
+section.page-3 div.p3-box-1 div.div-three{
+  position: absolute;
+  top: 16px;
 }
