@@ -16,7 +16,7 @@ header{
   z-index: 10;
 }
 
-/* ---[ BODY ] */                       
+/* ---[ BODY ]---*/                       
 body{
   font-family: 'M PLUS 1', sans-serif;
   font-size: 14px;
@@ -100,8 +100,6 @@ h1{
   font-weight: none;
   color: white;
   text-align: center;
-  /* position: relative;
-  top: 120px; */
 }
 .h1-btn:hover{
   cursor: pointer;
@@ -201,7 +199,6 @@ img#test:hover{
 } 
 /* * *--------------------- Bottom box 2 -------* * */
 div.bottom_box_two{
-  /* padding-bottom: 35px; */
   width: 400px;
   height: 100px;
   position: relative;
@@ -286,6 +283,12 @@ div.box4{
   cursor: pointer;
 }
 
+div.comment-dots{
+  border: solid mediumaquamarine;
+  position: absolute;
+  z-index: 20;
+}
+
 .arrow{
   box-sizing: border-box;
   height: 15px;
@@ -325,14 +328,22 @@ section h2{
   padding-left: 20px;
 }
 
+div.box_two{
+  /* border: solid mediumseagreen; */
+  width: 400px;
+  height: 600px;
+  position: relative;
+  left: 1100px;
+  top: 60px;
+}
 
 section.page-2 div.box-1{
   /* border: solid blue;
   background-color: white; */
-  position: relative;
+  position: absolute;
   width: 330px;
   height: 300px;
-  left: 1160px;
+  left: 40px;
 }
 section.page-2 div.box-1 h1{
   position: absolute;
@@ -350,11 +361,11 @@ section.page-2 div.box-1 h2{
 section.page-2 div.box-2{
   /* border: solid blue;
   background-color: white; */
-  position: relative;
+  position: absolute;
   width: 320px;
   height: 300px;
-  left: 1160px;
-  bottom: 200px;
+  left: 40px;
+  bottom: 210px;
   padding-left: 20px;
 }
 
@@ -400,6 +411,7 @@ div.btn-box{
 .plus-btn img{
   border-radius: 50%;
   border: solid black;
+  vertical-align: middle;
 }
 .plus-btn img:hover{
   background-color: black;
