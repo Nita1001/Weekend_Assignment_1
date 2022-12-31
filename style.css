@@ -118,9 +118,9 @@ div.bottom_box_one{
   padding-bottom: 35px;
   padding-right: 0px;
   position: relative;
-  top: 90px;
-  left: 60px;
-  width: 600px;
+  top: 160px;
+  left: 50px;
+  width: 800px;
   height: 200px;
   z-index: 0;
   border: solid red;
@@ -205,7 +205,7 @@ div.bottom_box_two{
   width: 400px;
   height: 100px;
   position: relative;
-  bottom: 100px;
+  bottom: 30px;
   left: 220px;
   border: solid rgb(58, 141, 193);
   z-index: 1;
@@ -227,7 +227,6 @@ div.header-box2 h1{
 }
 
 div.header-box2 p{
-  top: 160px;
   font-size: 12px;
   color: white;
   /* border: solid rgb(177, 27, 147); */
@@ -235,6 +234,55 @@ div.header-box2 p{
   width: 130px;
   height: 20px;
 
+}
+
+section.bottom_box_three .header-box3{
+  /* padding-bottom: 35px; */
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 127px;
+  left: 420px;
+  border: solid rgb(0, 0, 0);
+  z-index: 1;
+}
+
+section.bottom_box_three .header-box3 h1{
+  font-size: 28px;
+}
+
+section.bottom_box_three .header-box3 p{
+  color: white;
+  font-size: 12px;
+}
+
+div.box4{
+  position: relative;
+  bottom: 226px;
+  z-index: 4;
+  left: 560px;
+}
+
+.buy-btn{
+  background-color: transparent;
+  border: solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 200px;
+  height: 54px;
+}
+
+.buy-btn:hover{
+  background: white;
+  color: black;
+  transition: smooth;
+  cursor: pointer;
 }
 
 /* }
