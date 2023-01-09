@@ -75,7 +75,7 @@ nav.right{
 /* --- (PAGE 1) --- */
 /* ---- [Center] ---- */
 .page-1{
-  background-image: url(/images/Model-3-Main-Hero-Section-LHD.jpeg);
+  background-image: url(/Assets/images/Model-3-Main-Hero-Section-LHD.jpeg);
   background-size:cover;
   height: 100%;
   position: static;
@@ -323,7 +323,7 @@ div.comment-dots button.btn-comment{
 
 /* PAGE 2 */
 section.page-2{
-  background-image: url(/images/model-3-hero-a-desktop1.jfif) ;
+  background-image: url(/Assets/images/model-3-hero-a-desktop1.jfif) ;
   background-size: cover;
   /* background-position-x:  -6em;
   background-position-y: -2em;  */
@@ -427,7 +427,7 @@ div.btn-box{
 
 /* PAGE 3 */
 .page-3{
-  background-image: url(/images/Model-3-Performance-Hero-Desktop-LHD3.jfif);
+  background-image: url(/Assets/images/Model-3-Performance-Hero-Desktop-LHD3.jfif);
   background-size: cover;
   background-position: center;
   height: 80vh;
